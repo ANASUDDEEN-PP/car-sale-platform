@@ -1,0 +1,153 @@
+.cars-main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0e0e0;
+    position: fixed;
+}
+
+.cars-sub-container{
+    background-color:#fff ;
+    width: 1450px;
+    height: 764px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 104px;
+    display: flex;
+}
+
+.car-div-one{
+    width: 725px;
+    height: 764px;
+    border-radius: 10px;
+}
+
+.car-div-two{
+    width: 725px;
+    height: 764px;
+}
+
+.car-pic{
+    width: 703px;
+    height: 441px;
+    margin-top: 126px;
+    margin-left: 10px;
+    animation: fadeInAndMove 2s ease-in-out forwards;
+
+}
+
+.car-title{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 5px;
+    color: black;
+}
+
+.car-model-p{
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: -35px
+}
+
+.back-button{
+    padding: 40px 10px;
+    position: absolute;
+}
+
+.back-image{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 28px;
+    margin-top: 24px;
+    margin-bottom: -57px;
+    transition: .3s;
+
+}
+
+.back-image:hover{
+    transform: translateX(-10px);
+}
+
+.car-sub-div{
+    margin-left: 64px;
+    margin-top: 87px;
+}
+
+.car-title-two{
+    font-size: 50px;
+    color: black;
+}
+
+.car-model-two{
+    margin-top: -67px;
+    font-size: 25px;
+}
+
+.description-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.description-content{
+    width: 568px;
+    font-size: 15px;
+    margin-top: -37px;
+}
+
+.price-text{
+    font-size: 55px;
+    color: rgb(68, 0, 0);
+}
+
+.price-sub-text{
+    margin-top: -30px;
+    margin-left: 12px;
+}
+
+.indvidualcar-buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.addtochart{
+    background-color: black;
+    padding: 20px 100px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .9s;
+}
+
+.addtochart:hover{
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.payment{
+    background-color: rgb(150, 50, 0);
+    padding: 20px 100px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: .9s;
+}
+
+.payment:hover{
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(150, 50, 0);
+    border: 1px solid rgb(150, 50, 0);
+}
+
+
+@keyframes fadeInAndMove {
+    10% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(10);
+    }
+}

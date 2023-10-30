@@ -1,0 +1,186 @@
+.payment-main-section{
+    background-color: rgb(231, 231, 231);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.payment-container{
+    width: 1463px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.payment-section-one{
+    width: 732px;
+    height: 700px;
+}
+
+.payment-section-two{
+    width: 732px;
+    height: 700px;
+}
+
+.creditcard{
+    width: 530px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 134px;
+    margin-left: 80px;
+    box-shadow: 15px 20px 15px 5px rgb(0 0 0 / 27%);
+}
+.card-title{
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 413px;
+    padding-top: 33px;
+}
+
+.more-bank-details{
+    display: flex;
+    gap: 142px;
+}
+
+.expiry-detaills{
+    text-align: right;
+}
+
+.card-holder{
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: -23px;
+    font-size: 15px;
+    margin-left: 47px;
+}
+
+.card-holder-details{
+    width: 207px;
+}
+
+.card-holder-name{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 45px;
+    margin-bottom: -68px;
+}
+
+.card-number{
+    color: #fff;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 75px;
+    
+}
+
+.more-bank-info{
+    margin-left: 85px;
+    margin-top: 80px;
+}
+
+.more-card-details-title{
+    margin-bottom: -20px;
+    color: black;
+    font-size: 15px;
+}
+
+.bank-name{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: -0px;
+}
+
+.payment-main-title{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.close-btn{
+    margin-top: 40px;
+    margin-left: 656px;
+}
+
+
+.close-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.bank-detail-form{
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+.bank-drop{
+    width: 500px;
+    height: 45px;
+    margin-left: -20px;
+    background-color: #fafafa;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.cardNumber{
+    width: 485px;
+    height: 40px;
+    border-radius: 12px;
+    color: black;
+    border: 1px solid black;
+    background-color: #fafafa;
+    margin-left: -19px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.two-field{
+    display: flex;
+    margin-left: -61px;
+    margin-top: 0px;
+}
+
+.div-field{
+    width: 222px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #fafafa;
+    border-radius: 12px;
+}
+
+.cardHolder{
+    width: 485px;
+    height: 40px;
+    border-radius: 12px;
+    color: black;
+    border: 1px solid black;
+    background-color: #fafafa;
+    margin-left: -19px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 17px;
+}
+
+.bank-submit{
+    width: 500px;
+    height: 40px;
+    margin-left: -19px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .9s;
+}
+
+.bank-submit:hover{
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+}

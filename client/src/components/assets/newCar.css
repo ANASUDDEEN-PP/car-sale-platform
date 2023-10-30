@@ -1,0 +1,74 @@
+.newcar-section{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.car-main-container{
+    width: 1000px;
+    height: 560px;
+    background-color: #333;
+    border-radius: 15px;
+    margin-top: 140px;
+    margin-left: 350px;
+}
+
+.car-main-head{
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.car-row{
+    display: flex;
+}
+
+.car-form{
+    margin-left: 122px;
+}
+
+.file-upload{
+    background-color: red;
+    width: 286px;
+    height: 30px;
+    padding: 10px 10px;
+    margin-top: 16px;
+    margin-left: 48px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.file-upload:hover{
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.file-text{
+    margin-top: 4px;
+    color: #fff;
+}
+
+.car-button{
+    background-color: red;
+    border: none;
+    padding: 10px 100px;
+    margin-top: 40px;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 253px;
+    transition: .9s;
+}
+
+.car-button:hover{
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.car-link-one{
+    color: blue;
+    margin-left: 280px;
+    padding-top: 15px;
+}

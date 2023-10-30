@@ -1,0 +1,232 @@
+.Nav-bar{
+    /* background-color: #333; */
+    width: 100vw;
+    height: 133px;
+    display: flex;
+    position: absolute;
+}
+
+.logo-one{
+    width: 221px;
+    height: 155px;
+    margin-left: 37px;
+    margin-top: -9px;
+}
+
+.links{
+    display: flex;
+    gap: 100px;
+    margin-top: 53px;
+    margin-left: 300px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: .7s;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.login-btn{
+    width: 130px;
+    height: 28px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: -12px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.login-btn-text{
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-car-image{
+    width: 100vw;
+    height: 138vh;
+}
+
+.main-title{
+    color: #fff;
+    font-size: 90px;
+    position: relative;
+    margin-top: -849px;
+    margin-left: 85px;
+    
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+.learnmore-btn{
+    width: 132px;
+    text-align: center;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    padding: 20px;
+    margin-top: 3px;
+    margin-left: 94px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.learnmore-btn:hover{
+    border: 1px solid red;
+    background-color: transparent;
+}
+
+.learnmore-text{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-one{
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 310px;
+    gap: 156px;
+}
+
+.column-one{
+    color: #fff;
+    text-align: center ;
+    width: 267px;
+}
+
+.column-logo{
+    width: 66px;
+    height: 66px;
+    margin-bottom: -23px;
+}
+
+p{
+    color: #fff;
+}
+
+.column-head{
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+
+
+.vehicle-details{
+    width: 100vw;
+    height: 500px;
+    margin-top: 113px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.column-two{
+    width: 372px;
+    height: 440px;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 16px;
+    padding-top: 43px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .9s;
+}
+
+.column-two:hover{
+    transform: translateY(-10px);
+}
+
+.cars-pic{
+    width: 327px;
+    height: 224px;
+}
+
+.car-details{
+    text-align: left;
+    margin-left: 48px;
+}
+
+.carTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+.carRate{
+    font-size: 20px;
+    color: rgb(0, 65, 0);
+}
+
+.Car-buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: -10px;
+}
+
+.moreInfo-btn{
+    padding: 15px 30px;
+    background-color: #6b000c;
+    border-radius: 5px;
+}
+
+.More-Info{
+    color: #fff;
+    text-decoration: none;
+}
+
+.chartBtn{
+    background-color: #0e4703;
+    width: 135px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.viewMore{
+    width: 32px;
+    height: 25px;
+    padding: 30px;
+    text-align: center;
+    background-color: #a3a3a3;
+    border-radius: 90%;
+    margin-left: 20px;
+    margin-top: 200px;
+    cursor: pointer;
+    transition: .9s;
+}
+
+.viewMore:hover{
+    transform: translateX(10px);
+}
+
+.view-text{
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 50px;
+  }

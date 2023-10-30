@@ -1,0 +1,46 @@
+.editcar-main-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+}
+
+.editcar-main-container{
+    width: 800px;
+    height: 450px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-left: 430px;
+    margin-top: 185px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+.editcar-heading{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.last-row{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.editcar-button{
+    padding: 10px 50px;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 305px;
+    cursor: pointer;
+}
+
+.editcar-link{
+    color: blue;
+    margin-left: 300px;
+    margin-top: 10px;
+}

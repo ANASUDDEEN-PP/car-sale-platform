@@ -1,0 +1,61 @@
+.listcar-main-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+/* Basic table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: black;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Animated styles */
+table td {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+table tr:hover td {
+    background-color: #333;
+    color: #fff;
+}
+
+.editButtons{
+    background-color: rgb(0, 129, 0);
+    border: none;
+    padding: 10px 50px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .4s;
+}
+
+.editButtons:hover{
+    background-color: rgb(0, 77, 0);
+}
+
+.deleteButtons{
+    background-color: rgb(166, 0, 0);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .4s;
+}
+
+.deleteButtons:hover{
+    background-color: rgb(67, 0, 0);
+}
+
+.car-link{
+    color: blue;
+    margin-left: 45vw;
+}
+
